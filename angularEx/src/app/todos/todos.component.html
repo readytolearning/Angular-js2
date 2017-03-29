@@ -1,0 +1,10 @@
+<ol>
+    <input type="text" [(ngModel)]='name' />
+    <button (click)="addMyName()" >Add My Name</button>
+
+  <li *ngFor="let todo of todos">
+
+{{todo}} <button (click)="displayMessage(todo)" >Click me </button>
+  </li>
+
+</ol>
